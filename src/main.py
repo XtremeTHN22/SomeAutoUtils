@@ -9,5 +9,4 @@ def cinput(prompt: str, default=None):
         return input(f"{Colorate.Horizontal(Colors.yellow_to_green, '[INFO]')} {prompt}")
     except (EOFError, KeyboardInterrupt):
         return default
-cprint("Hola")
-cinput("Enter: ")
+
